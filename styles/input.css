@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+    --site-black: #1D253B;
+    --site-white: #F1F1F1;
+}
+
+@font-face {
+    font-family: REMBLACK;
+    src: url(/fonts/REM/REM-Black.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: outfit;
+    src: url(/fonts/Outfit/Outfit-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: outfit-light;
+    src: url(/fonts/Outfit/Outfit-ExtraLight.ttf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Danfo;
+    src: url(/fonts/Danfo/Danfo-Regular.ttf);
+}
+
+@font-face {
+    font-family: Michroma;
+    src: url(/fonts/Michroma/Michroma-Regular.ttf);
+}
+
+.font-REMBLACK {
+    font-family: REMBLACK;
+}
+
+.font-outfit {
+    font-family: outfit;
+}
+
+.font-outfit-light {
+    font-family: outfit-light;
+}
+
+.font-Michroma {
+    font-family: Michroma;
+}
+
+.font-Danfo {
+    font-family: Danfo;
+}
+
+.bg-primary {
+    background-color: var(--site-white);
+}
+
+.text-primary {
+    color: var(--site-white);
+}
+
+.border-primary {
+    border-color: var(--site-white);
+}
+
+.bg-secondary {
+    background-color: var(--site-black);
+}
+
+.text-secondary {
+    color: var(--site-black);
+}
+
+.border-secondary {
+    border-color: var(--site-black);
+}
