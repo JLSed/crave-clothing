@@ -3,12 +3,19 @@
 :root {
     --site-black: #1D253B;
     --site-white: #F1F1F1;
+    --site-breaver: #A28171;
 }
 
 @font-face {
     font-family: REMBLACK;
     src: url(../fonts/REM/REM-Black.ttf);
     font-weight: bold;
+}
+
+@font-face {
+    font-family: Unbounded;
+    src: url(../fonts/Unbounded/Unbounded-Regular.ttf);
+    font-weight: normal;
 }
 
 @font-face {
@@ -39,6 +46,10 @@
 
 .font-outfit {
     font-family: outfit;
+}
+
+.font-unbounded {
+    font-family: Unbounded;
 }
 
 .font-outfit-light {
@@ -75,4 +86,16 @@
 
 .border-secondary {
     border-color: var(--site-black);
+}
+
+.bg-breaver {
+    background-color: var(--site-breaver);
+}
+
+.text-breaver {
+    color: var(--site-breaver);
+}
+
+.border-breaver {
+    border-color: var(--site-breaver);
 }
